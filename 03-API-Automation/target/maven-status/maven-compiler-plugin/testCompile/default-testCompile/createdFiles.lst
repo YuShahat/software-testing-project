@@ -1,0 +1,6 @@
+tests\ProductsApiTests.class
+utils\ExtentReportManager.class
+tests\AccountApiTests.class
+tests\AuthenticationApiTests.class
+utils\ExtentTestListener.class
+tests\NegativeApiTests.class

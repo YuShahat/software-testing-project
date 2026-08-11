@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-12T01:37:57 EEST" name="API Automation Suite" finished-at="2026-08-12T01:38:17 EEST" duration-ms="19920">
+    <groups>
+    </groups>
+    <test started-at="2026-08-12T01:37:57 EEST" name="API Tests" finished-at="2026-08-12T01:38:17 EEST" duration-ms="19920">
+      <class name="tests.AuthenticationApiTests">
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:0, instance:tests.AuthenticationApiTests@29176cc1]" started-at="2026-08-12T01:38:07 EEST" name="verifyLoginWithInvalidCredentials" description="Verify login with invalid credentials" finished-at="2026-08-12T01:38:08 EEST" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method signature="verifyLoginWithMissingEmail()[pri:0, instance:tests.AuthenticationApiTests@29176cc1]" started-at="2026-08-12T01:38:08 EEST" name="verifyLoginWithMissingEmail" description="Verify login with missing email" finished-at="2026-08-12T01:38:09 EEST" duration-ms="941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithMissingEmail -->
+        <test-method signature="verifyLoginWithMissingPassword()[pri:0, instance:tests.AuthenticationApiTests@29176cc1]" started-at="2026-08-12T01:38:09 EEST" name="verifyLoginWithMissingPassword" description="Verify login with missing password" finished-at="2026-08-12T01:38:09 EEST" duration-ms="897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithMissingPassword -->
+      </class> <!-- tests.AuthenticationApiTests -->
+      <class name="tests.ProductsApiTests">
+        <test-method signature="getBrandsList()[pri:0, instance:tests.ProductsApiTests@4278a03f]" started-at="2026-08-12T01:38:14 EEST" name="getBrandsList" description="Verify brands list API" finished-at="2026-08-12T01:38:15 EEST" duration-ms="1142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrandsList -->
+        <test-method signature="getProductsList()[pri:0, instance:tests.ProductsApiTests@4278a03f]" started-at="2026-08-12T01:38:15 EEST" name="getProductsList" description="Verify products list API" finished-at="2026-08-12T01:38:16 EEST" duration-ms="1055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductsList -->
+        <test-method signature="searchProduct()[pri:0, instance:tests.ProductsApiTests@4278a03f]" started-at="2026-08-12T01:38:16 EEST" name="searchProduct" description="Verify product search API" finished-at="2026-08-12T01:38:17 EEST" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+      </class> <!-- tests.ProductsApiTests -->
+      <class name="tests.NegativeApiTests">
+        <test-method signature="loginWithInvalidCredentials()[pri:0, instance:tests.NegativeApiTests@2f177a4b]" started-at="2026-08-12T01:38:09 EEST" name="loginWithInvalidCredentials" description="Login with invalid credentials" finished-at="2026-08-12T01:38:12 EEST" duration-ms="2474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method signature="loginWithMissingEmail()[pri:0, instance:tests.NegativeApiTests@2f177a4b]" started-at="2026-08-12T01:38:12 EEST" name="loginWithMissingEmail" description="Login with missing email" finished-at="2026-08-12T01:38:12 EEST" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithMissingEmail -->
+        <test-method signature="loginWithMissingPassword()[pri:0, instance:tests.NegativeApiTests@2f177a4b]" started-at="2026-08-12T01:38:12 EEST" name="loginWithMissingPassword" description="Login with missing password" finished-at="2026-08-12T01:38:13 EEST" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithMissingPassword -->
+        <test-method signature="searchProductWithEmptySearchTerm()[pri:0, instance:tests.NegativeApiTests@2f177a4b]" started-at="2026-08-12T01:38:13 EEST" name="searchProductWithEmptySearchTerm" description="Search product with empty search term" finished-at="2026-08-12T01:38:14 EEST" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductWithEmptySearchTerm -->
+      </class> <!-- tests.NegativeApiTests -->
+      <class name="tests.AccountApiTests">
+        <test-method signature="createAccount()[pri:0, instance:tests.AccountApiTests@65d6b83b]" started-at="2026-08-12T01:37:58 EEST" name="createAccount" description="Verify account creation API" finished-at="2026-08-12T01:38:07 EEST" duration-ms="8681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+      </class> <!-- tests.AccountApiTests -->
+    </test> <!-- API Tests -->
+  </suite> <!-- API Automation Suite -->
+</testng-results>
