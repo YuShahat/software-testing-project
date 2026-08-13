@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "efa3ac15-fc1e-4e52-b24a-181ba86eaf44",
+		"name": "03 - API Automation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "57387214",
+		"_collection_link": "https://youssefshahat8-4449244.postman.co/workspace/c37552f8-1cf8-46d0-8635-d211b005de46/collection/57387214-efa3ac15-fc1e-4e52-b24a-181ba86eaf44?action=share&source=collection_link&creator=57387214"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://automationexercise.com/api/productsList",
+					"protocol": "https",
+					"host": [
+						"automationexercise",
+						"com"
+					],
+					"path": [
+						"api",
+						"productsList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "search_product",
+							"value": "Top",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://automationexercise.com/api/searchProduct",
+					"protocol": "https",
+					"host": [
+						"automationexercise",
+						"com"
+					],
+					"path": [
+						"api",
+						"searchProduct"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
