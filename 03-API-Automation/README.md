@@ -33,6 +33,15 @@ API automation testing framework built using **Java, REST Assured, TestNG, and M
 
 **BUILD SUCCESS ✅**
 
+## Postman Collection
+
+You can find the ready-to-use Postman Collection for manual testing and validation in the project repository:
+- **Collection File:** `03-API-Automation/03 - API Automation.postman_collection.json`
+- **How to Use:** 
+  1. Open Postman.
+  2. Click on **Import** and select the JSON file from the project folder.
+  3. Run and test all endpoints directly!
+
 ## Reports & Documentation
 
 - Extent HTML Report
@@ -44,16 +53,3 @@ API automation testing framework built using **Java, REST Assured, TestNG, and M
 
 ```bash
 mvn clean test
-
-## CI/CD
-
-GitHub Actions automatically runs the API test suite on every push to the `main` branch.
-
-## Postman Collection
-
-You can find the ready-to-use Postman Collection for manual testing and validation in the project repository:
-- **Collection File:** `[Path to your json file, e.g., Postman/Automation_Exercise.json]`
-- **How to Use:** 
-  1. Open Postman.
-  2. Click on **Import** and select the JSON file from the project.
-  3. Run and test all endpoints directly!
