@@ -26,6 +26,11 @@ The image below provides a quick overview of the project, including the tested w
 </p>
 
 ---
+## Test Execution Summary Dashboard
+
+![Manual Testing Dashboard](assets/dashboard.PNG)
+
+---
 
 # 📖 Project Overview
 
